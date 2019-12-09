@@ -1,5 +1,7 @@
 import express from 'express';
 
+// Typescript singelton.
+// Ensures that we only ever have one router instance available in our app
 export class AppRouter {
   private static instance: express.Router;
 

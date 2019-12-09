@@ -11,6 +11,7 @@ function requireAuth(req: Request, res: Response, next: NextFunction): void {
   res.send('Not permitted');
 }
 
+// The @controller (class level) decorator is guanrateed to run last
 @controller('')
 class RootController {
   @get('/')

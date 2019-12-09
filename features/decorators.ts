@@ -1,5 +1,6 @@
 @classDecorator
 class Boat {
+  // Does not work
   @testDecorator
   color: string = 'red';
 
